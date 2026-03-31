@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header>
+<header class="header">
 <div class="container">
     <div class="header-container">
     <nav class="header-nav">
@@ -57,7 +57,7 @@
             та висока якість обслуговування!
             </p>
             </div>
-            <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони з посмішкою">
+            <img class="baker-photo" src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони з посмішкою">
     </div>
   </section>
   <section class="section" id="chefs-section">
@@ -102,7 +102,7 @@
         <div class="formats-container">
         <button class="carousel-button" type="button">
             <svg width="16" height="16">
-                    <use herf="./images/icons.svg#arrow"></use>
+                    <use href="./images/icons.svg#icon-Arrow-1"></use>
                 </svg>
         </button>
     <ul class="formats-list">
@@ -140,9 +140,9 @@
             </article>
         </li>
     </ul>
-        <button class="carousel-button" type="button">
+        <button class="carousel-button next" type="button">
             <svg width="16" height="16">
-                    <use herf="./images/icons.svg#arrow"></use>
+                    <use href="./images/icons.svg#icon-Arrow-1"></use>
                 </svg>
         </button>
     </div>
@@ -210,12 +210,12 @@
 </div>
 </div>
 </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
         <div class="modal">
             <button class="modal-btn-close">Close</button>
         </div>
     </div>
 
-    <script src="./css/js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
